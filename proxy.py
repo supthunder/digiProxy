@@ -9,7 +9,7 @@ from termcolor import cprint
 info = {
 	"token" : "some token", # get this from digital ocean
 	"ssh_num" : [1234], # has to be a list of INT's
-	"sss_path"	: "/Users/username/key.pub", # location to ssh pub key
+	"ssh_path"	: "/Users/username/key.pub", # location to ssh pub key
 	"tnd_script" : "https://gist.githubusercontent.com/supthunder/e9362875d5fadc11e614440d87be3a24/raw/08cafe4e1dd75d0ac5767b08809e1a028c906c2f/p.sh" # DZT's script for ubuntu 16.04
 }
 
@@ -47,7 +47,7 @@ def proxy(ip, extra):
 		
 
 		try:
-			client.connect(str(ip), username='root',look_for_keys=False,key_filename=info['sss_path'])
+			client.connect(str(ip), username='root',look_for_keys=False,key_filename=info['ssh_path'])
 			sleep(2)
 			condition = str(client.get_transport().is_active())
 			if condition == "True":
@@ -97,7 +97,7 @@ def multiDrop(items):
 
 def main():
 	global ips, proxies
-	amount = int(input("How may proxies? "))
+	amount = int(input("How many proxies? "))
 	each = list(range(1,amount+1))
 
 	# Create droplets
