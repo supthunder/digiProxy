@@ -17,7 +17,7 @@ Create droplets, create squid proxies on those droplets, saves to proxies.json
 ```
 2. ```pip install -r req.txt```
 
-3. Run ```python proxy.py```
+3. ```python proxy.py```
 
 ![1](/images/1.gif)
 
