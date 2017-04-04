@@ -10,8 +10,8 @@ Create droplets, create squid proxies on those droplets, saves to proxies.json
   ```
   info = {
 	"token" : "some token", # get this from digital ocean
-	"ssh_num" : [1234], # has to be a list of INT's
-	"sss_path"	: "/Users/username/key.pub", # location to ssh pub key
+	"ssh_num" : [1234], # get this from rsaKey.py
+	"ssh_path"	: "/Users/username/key.pub", # location to ssh pub key
 	"tnd_script" : "https://gist.githubusercontent.com/supthunder/e9362875d5fadc11e614440d87be3a24/raw/08cafe4e1dd75d0ac5767b08809e1a028c906c2f/p.sh" # DZT's script for ubuntu 16.04
         }
 ```
