@@ -1,7 +1,7 @@
 # proxy.py
 Create proxies using DigitalOcean's API, based upon [@thenikedestroyer's script](https://gist.github.com/thenikedestroyer/803a7cd3557f69aadc88d83d6bdbbe40) and inpsired by [@ryan9918's script](https://github.com/ryan9918/digitaloceandestroyer)
 
-**Only works on OSX, for windows see [windows.md](windows.md)**
+### **Only works on OSX, for windows see [windows.md](windows.md)**
 
 ## What it does:
 
