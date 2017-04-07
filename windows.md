@@ -13,7 +13,7 @@ sudo bash p.sh
 ```
 6. Exit console. Go to https://cloud.digitalocean.com/images/snapshots/droplets
 7. Create a snapshot using the droplet you just created, now open terminal/powershell
-8. Get image key from ```python rsaKey.py```, its the 8 digit number
+8. Get **Image IDs** from ```python rsaKey.py```, its the 8 digit number
 9. Add this to **image_id** in info{} in **windowsProxy.py**
 10. ```python windowsProxy.py```
 
